@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="15" x2="1180" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40220F"/>
+      <stop offset=".58" stop-color="#A65B25"/>
+      <stop offset="1" stop-color="#F2C078"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="matrix(0 186 -186 0 938 180)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2C6" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#FFF2C6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v360H0z"/>
+  <circle cx="938" cy="180" r="186" fill="url(#light)"/>
+  <g stroke="#FFF2C6" stroke-opacity=".72" stroke-width="2">
+    <circle cx="938" cy="180" r="128"/>
+    <circle cx="938" cy="180" r="90"/>
+    <circle cx="938" cy="180" r="52"/>
+    <path d="M938 38v284M796 180h284M837 79l202 202M1039 79 837 281"/>
+  </g>
+  <circle cx="938" cy="180" r="12" fill="#FFF2C6"/>
+  <text x="90" y="213" fill="#FFF9EA" font-family="Georgia,serif" font-size="93" font-style="italic" opacity=".96">Why?</text>
+  <text x="96" y="270" fill="#FDE7C0" font-family="Arial,sans-serif" font-size="20" letter-spacing="7" opacity=".88">WISDOM · REASON · THE GOOD LIFE</text>
+</svg>

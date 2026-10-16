@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="curio" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff795c"/>
+      <stop offset=".52" stop-color="#f26150"/>
+      <stop offset="1" stop-color="#6d5bcb"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#curio)"/>
+  <path d="M9.5 25.7c2.1-10.9 14.4-18.1 25.2-14.2 7.9 2.8 8.8 11.5 2.5 17.8-6.5 6.6-18.5 11.4-25.2 7.2-3.3-2.1-4.1-6.3-2.5-10.8Z" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="1.7" transform="rotate(-16 24 24)"/>
+  <path d="m24 13.7 2.8 7.5 7.5 2.8-7.5 2.8-2.8 7.5-2.8-7.5-7.5-2.8 7.5-2.8 2.8-7.5Z" fill="#fff"/>
+  <circle cx="36.5" cy="12" r="2.4" fill="#ffe68a"/>
+  <circle cx="11" cy="35.5" r="1.7" fill="#fff" fill-opacity=".85"/>
+</svg>

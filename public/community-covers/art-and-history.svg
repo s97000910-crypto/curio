@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="26" y1="20" x2="1170" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B1836"/>
+      <stop offset=".55" stop-color="#C04C52"/>
+      <stop offset="1" stop-color="#F4B86A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="735" y1="55" x2="1070" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset=".52" stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v360H0z"/>
+  <rect x="752" y="38" width="330" height="284" rx="12" fill="#3B1830" fill-opacity=".5" stroke="#FFE7BA" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="772" y="58" width="290" height="244" rx="6" fill="url(#panel)" fill-opacity=".88"/>
+  <circle cx="916" cy="147" r="60" fill="#FDE68A" fill-opacity=".88"/>
+  <path d="M778 273c59-85 105-92 141-19 39-85 91-94 137-3v45H778v-23Z" fill="#412448" fill-opacity=".82"/>
+  <path d="M773 265h289M791 78h78M993 78h52" stroke="#fff" stroke-opacity=".62" stroke-width="3"/>
+  <path d="M735 82h-52m52 52h-30m30 52h-58m58 52h-35m35 52h-65" stroke="#FFE7BA" stroke-opacity=".58" stroke-width="2"/>
+  <text x="82" y="210" fill="#FFF8EC" font-family="Georgia,serif" font-size="78" font-style="italic" opacity=".96">Art &amp; Time</text>
+  <text x="90" y="270" fill="#FFE7BA" font-family="Arial,sans-serif" font-size="20" letter-spacing="7" opacity=".9">CULTURE · MEMORY · MEANING</text>
+</svg>

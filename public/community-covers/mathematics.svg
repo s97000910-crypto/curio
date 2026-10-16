@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="34" y1="20" x2="1150" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24154E"/>
+      <stop offset=".54" stop-color="#6142A5"/>
+      <stop offset="1" stop-color="#C5A6F5"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="750" y1="30" x2="1060" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#fff" stroke-opacity=".13"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v360H0z"/>
+  <path fill="url(#grid)" d="M0 0h1200v360H0z"/>
+  <circle cx="954" cy="180" r="124" fill="url(#orb)" fill-opacity=".18"/>
+  <circle cx="954" cy="180" r="80" stroke="#FDE68A" stroke-opacity=".8" stroke-width="2"/>
+  <circle cx="954" cy="180" r="42" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M675 279c82-6 94-178 187-178s106 177 188 178" stroke="#fff" stroke-opacity=".85" stroke-width="4"/>
+  <path d="M680 80h420M680 180h420M680 280h420" stroke="#fff" stroke-opacity=".14"/>
+  <path d="M780 48v264M880 48v264M980 48v264M1080 48v264" stroke="#fff" stroke-opacity=".14"/>
+  <circle cx="862" cy="157" r="7" fill="#FDE68A"/>
+  <circle cx="1052" cy="157" r="7" fill="#FDE68A"/>
+  <text x="88" y="230" fill="#fff" font-family="Georgia,serif" font-size="142" font-style="italic" opacity=".94">∑ π</text>
+  <text x="96" y="278" fill="#E9D5FF" font-family="Arial,sans-serif" font-size="20" letter-spacing="7" opacity=".82">PROOFS · PATTERNS · POSSIBILITY</text>
+</svg>

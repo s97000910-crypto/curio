@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="38" y1="10" x2="1140" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081B3D"/>
+      <stop offset=".58" stop-color="#075985"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="matrix(0 140 -140 0 925 178)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v360H0z"/>
+  <circle cx="925" cy="178" r="145" fill="url(#sun)"/>
+  <g stroke="#DBF4FF" stroke-opacity=".78" stroke-width="2">
+    <ellipse cx="925" cy="178" rx="222" ry="76" transform="rotate(-31 925 178)"/>
+    <ellipse cx="925" cy="178" rx="222" ry="76" transform="rotate(31 925 178)"/>
+    <ellipse cx="925" cy="178" rx="222" ry="76" transform="rotate(90 925 178)"/>
+    <circle cx="925" cy="178" r="26" fill="#FDE68A" stroke="#fff"/>
+  </g>
+  <circle cx="1092" cy="77" r="8" fill="#fff"/>
+  <circle cx="764" cy="100" r="5" fill="#BAE6FD"/>
+  <circle cx="1036" cy="267" r="6" fill="#BAE6FD"/>
+  <circle cx="699" cy="292" r="4" fill="#fff"/>
+  <text x="84" y="217" fill="#fff" font-family="Georgia,serif" font-size="116" font-style="italic" opacity=".94">E = mc²</text>
+  <text x="92" y="270" fill="#BAE6FD" font-family="Arial,sans-serif" font-size="20" letter-spacing="7" opacity=".88">MATTER · MOTION · THE COSMOS</text>
+</svg>

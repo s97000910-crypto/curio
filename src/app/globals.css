@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+:root {
+  --bg-canvas: #F8F6F1;
+  --bg-card: #FFFEFC;
+  --bg-elevated: #F0EDE5;
+  --border-subtle: #E6E0D5;
+  --border-focus: #E96A52;
+  --text-main: #292722;
+  --text-muted: #77736B;
+  --curio-coral: #E96A52;
+  --curio-violet: #6559B8;
+  --curio-yellow: #DCA13D;
+  --curio-mint: #43856E;
+  --curio-sky: #4B829B;
+}
+
+.dark {
+  --bg-canvas: #171715;
+  --bg-card: #201F1C;
+  --bg-elevated: #2A2925;
+  --border-subtle: #393730;
+  --border-focus: #F08A70;
+  --text-main: #F6F2E9;
+  --text-muted: #AAA49A;
+  --curio-coral: #F08A70;
+  --curio-violet: #A69AE8;
+  --curio-yellow: #EABD68;
+  --curio-mint: #73B397;
+  --curio-sky: #79ABC2;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-main);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  min-height: 100vh;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Visible focus rings for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Small confirmation when something is saved; skipped entirely when motion is reduced. */
+@keyframes curio-pop {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .curio-pop {
+    animation: curio-pop 240ms ease-out;
+  }
+}

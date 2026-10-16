@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="22" y1="8" x2="1190" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#062A2B"/>
+      <stop offset=".57" stop-color="#087E75"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#D1FAE5" fill-opacity=".22"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v360H0z"/>
+  <path fill="url(#dots)" d="M0 0h1200v360H0z"/>
+  <g stroke="#A7F3D0" stroke-opacity=".7" stroke-width="2">
+    <path d="M680 90h124v68h98M680 270h124v-68h98M902 158h89v-62h116M902 202h89v62h116"/>
+    <path d="M830 158v44M1028 96h79v168h-79"/>
+    <circle cx="680" cy="90" r="7" fill="#D1FAE5"/>
+    <circle cx="680" cy="270" r="7" fill="#D1FAE5"/>
+    <circle cx="1107" cy="96" r="7" fill="#D1FAE5"/>
+    <circle cx="1107" cy="264" r="7" fill="#D1FAE5"/>
+    <rect x="804" y="139" width="98" height="78" rx="16" fill="#064E3B"/>
+    <path d="m837 167-12 11 12 11m32-22 12 11-12 11m-10-31-10 40" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="88" y="209" fill="#fff" font-family="Consolas,monospace" font-size="105" font-weight="700" opacity=".94">&lt;/&gt; 01</text>
+  <text x="94" y="270" fill="#D1FAE5" font-family="Arial,sans-serif" font-size="20" letter-spacing="7" opacity=".88">ALGORITHMS · SYSTEMS · IDEAS</text>
+</svg>
